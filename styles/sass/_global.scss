@@ -1,0 +1,65 @@
+/* stripping styles */
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body,
+ul,
+li,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* global styles */
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+  height: 100%;
+  font-weight: 300;
+  line-height: 2.9rem;
+  letter-spacing: 0.2px;
+}
+
+/* wrapper styles */
+
+.wrapper {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* skip link styles */
+.skip-link {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: white;
+  color: black;
+}
+
+.skip-link:focus {
+  left: 0;
+}
