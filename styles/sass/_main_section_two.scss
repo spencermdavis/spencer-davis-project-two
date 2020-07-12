@@ -1,0 +1,22 @@
+.newAdditions {
+  background-color: #0f614e;
+  padding: 3rem 0 3rem 0;
+}
+
+.newAdditionsFlexParent {
+  display: flex;
+}
+
+.newAdditions .readMore {
+  text-align: left;
+}
+
+.newAdditionsText {
+  flex-basis: 50%;
+}
+
+.newAdditions img {
+  box-shadow: 15px 15px #86e0f9;
+  flex-basis: 50%;
+  margin-left: -(calc(100vw - 50%));
+}

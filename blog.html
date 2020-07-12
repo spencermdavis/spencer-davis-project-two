@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/bef9dc9aad.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Spencer Davis Project 2 - Blog</title>
+  </head>
+  <body>
+    <a href="#maincontent" class="skip-link">Skip to main content.</a>
+    <header class="blogHeader">
+      <div class="wrapper">
+        <nav>
+          <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">blog</a></li>
+            <li><a href="">contact</a></li>
+          </ul>
+        </nav>
+        <h1>Blog</h1>
+      </div>
+    </header>
+    <main>
+      <section class="post">
+        <figure>
+          <img
+            src="./assets/blog-post-image.jpg"
+            alt="A clownfish swims through red coral growing from the white-sand seabed."
+          />
+        </figure>
+        <div class="wrapper">
+          <h2>discovering new species</h2>
+          <p class="date">Monday, May 4th, 2019 by Dieula</p>
+          <p class="postText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magnam
+            ipsa veritatis, eum eius, hic vitae unde quaerat quas eligendi illum
+            iste suscipit aliquam inventore rerum asperiores voluptatum esse
+            atque sint doloremque qui aut! Maiores quas blanditiis numquam,
+            laboriosam velit a obcaecati ad accusamus ullam provident, voluptate
+            nisi sunt itaque. Vitae dolore a voluptatum quas nemo natus
+            exercitationem, repudiandae nam, eaque atque quisquam iure porro
+            distinctio, quia nostrum quam repellendus. Iure quasi minus
+            deserunt! Error veniam, vel, consequatur deserunt maxime
+            reprehenderit adipisci reiciendis repellat dolores incidunt corrupti
+            atque pariatur quibusdam quos tempore autem doloribus amet id quasi,
+            corporis placeat qui fugiat delectus. Magnam fugit eius eos nostrum
+            beatae dolores blanditiis unde, tempore ad minima adipisci inventore
+            error veniam non esse minus suscipit, perspiciatis reprehenderit ex
+            dolorem. Ab error praesentium nam voluptate exercitationem harum
+            vero qui hic quisquam in iste sit alias est nulla suscipit, ipsum,
+            delectus quidem maxime earum cum?
+          </p>
+        </div>
+        <aside class="aboutSidebar">
+          <img
+            src="./assets/side-blog-image.jpg"
+            alt="A whale shark swims through a school of fish as a crown in silhouette observes through the outer glass of a large tank."
+          />
+          <div class="sidebarText">
+            <h3>about under the sea</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+              repellat quibusdam facilis fugit veritatis facere modi vel aperiam
+              possimus consectetur eveniet ipsa. Atque quasi soluta eligendi
+              culpa vero facere mollitia!
+            </p>
+          </div>
+          <div class="sidebarRecentPosts">
+            <h3>recent posts</h3>
+            <ul>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem ipsum dolor sit.</li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+      <section class="comments">
+        <div class="wrapper">
+          <h2>comments</h2>
+          <div class="comment1">
+            <img
+              src="./assets/comment-1.jpg"
+              alt="A portrait of the first commentor."
+            />
+            <div class="comment1Text">
+              <p>Tuesday, October 9th, 2018 by Jeremy</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus reprehenderit pariatur tenetur, recusandae
+                consequuntur, optio suscipit vitae neque molestias molestiae
+                voluptate in deserunt aliquam minus quisquam saepe a eaque
+                veritatis.
+              </p>
+            </div>
+          </div>
+          <div class="comment2">
+            <img
+              src="./assets/comment-2.jpg"
+              alt="A portrait of the second commentor."
+            />
+            <div class="comment1Text">
+              <p>Tuesday, October 9th, 2018 by Jeremy</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus reprehenderit pariatur tenetur, recusandae
+                consequuntur, optio suscipit vitae neque molestias molestiae
+                voluptate in deserunt aliquam minus quisquam saepe a eaque
+                veritatis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="postForm">
+        <div class="wrapper">
+          <form action="#">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              autocomplete="off"
+            />
+
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email address"
+            />
+
+            <label for="comment">Comment</label>
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Comment"
+              required
+              maxlength="255"
+              autocomplete="off"
+            ></textarea>
+
+            <input type="submit" value="post comment" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright <i class="far fa-copyright"></i> 2018 HackerYou</p>
+    </footer>
+  </body>
+</html>

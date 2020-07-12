@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/bef9dc9aad.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Spencer Davis Project 2 - Contact</title>
+  </head>
+  <body>
+    <a href="#maincontent" class="skip-link">Skip to main content.</a>
+    <header class="contactHeader">
+      <div class="wrapper">
+        <nav>
+          <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">blog</a></li>
+            <li><a href="">contact</a></li>
+          </ul>
+        </nav>
+        <h1>get in touch</h1>
+      </div>
+    </header>
+    <main>
+      <section class="contactForm">
+        <div class="wrapper">
+          <form action="#">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              autocomplete="off"
+            />
+
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email address"
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              required
+              maxlength="255"
+              autocomplete="off"
+            ></textarea>
+
+            <input type="submit" value="submit" />
+          </form>
+          <aside class="contactSidebar">
+            <ul>
+              <li>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-twitter-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-whatsapp-f"></i></a>
+              </li>
+            </ul>
+            <h3><a href="mailto:info@email.com">info@email.com</a></h3>
+            <ul>
+              <li>123 - 456 - 7890</li>
+              <li>123 Queen Street West, Unit 10</li>
+              <li>Toronto, Ontario</li>
+              <li>M5V2D5</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright <i class="far fa-copyright"></i> 2018 HackerYou</p>
+    </footer>
+  </body>
+</html>
