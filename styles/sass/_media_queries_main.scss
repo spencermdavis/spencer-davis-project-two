@@ -1,0 +1,111 @@
+@media (max-width: 768px) {
+  // header styles
+  header h1 {
+    font-size: 8rem;
+  }
+
+  header nav {
+    visibility: hidden;
+  }
+
+  //   section 1 styles
+  .underTheSea {
+    padding: 15rem 0 15rem 0;
+  }
+
+  .underTheSea p {
+    text-align: center;
+  }
+
+  //   section 2 styles
+  .newAdditionsFlexParent {
+    flex-direction: column;
+  }
+
+  .newAdditionsFlexParent img {
+    margin: 3rem 0 2rem 0;
+    padding: 0;
+  }
+
+  .newAdditionsText {
+    width: 100%;
+    text-align: center;
+  }
+
+  .newAdditionsText .readMore {
+    text-align: center;
+  }
+
+  // section 3 styles
+  .realNemoFlexParent {
+    flex-direction: column-reverse;
+  }
+
+  .realNemoFlexParent img {
+    margin: 0 0 2rem 0;
+    padding: 0;
+    box-shadow: 30px 30px #86e0f9;
+  }
+
+  .realNemoText {
+    text-align: center;
+    margin: 0;
+  }
+
+  .realNemoText .readMore {
+    text-align: center;
+  }
+
+  // section 4 styles
+
+  .links .wrapper {
+    grid-gap: 20px;
+  }
+
+  .community,
+  .getInTouch {
+    margin: 0;
+    padding: 0;
+  }
+
+  // section 5 styles
+
+  .profile {
+    padding-bottom: 8rem;
+  }
+
+  .profileFlexParent {
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+
+  .profileFlexParent img {
+    display: none;
+  }
+
+  .profileText {
+    text-align: center;
+    flex-basis: 100%;
+  }
+
+  .profileText .findOutMore {
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  // section 4 styles
+
+  .links .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  // section 6 styles
+
+  .imageGallery .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}

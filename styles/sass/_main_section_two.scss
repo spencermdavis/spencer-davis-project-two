@@ -1,10 +1,12 @@
 .newAdditions {
   background-color: #0f614e;
-  padding: 3rem 0 3rem 0;
+  padding-bottom: 3rem;
 }
 
 .newAdditionsFlexParent {
   display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .newAdditions .readMore {
@@ -13,10 +15,12 @@
 
 .newAdditionsText {
   flex-basis: 50%;
+  flex-shrink: 200px;
+  margin-left: 10rem;
 }
 
 .newAdditions img {
-  box-shadow: 15px 15px #86e0f9;
-  flex-basis: 50%;
-  margin-left: -(calc(100vw - 50%));
+  box-shadow: 30px 30px #86e0f9;
+  flex-basis: 80%;
+  margin: -3rem 0 0 -18.5vw;
 }

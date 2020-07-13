@@ -1,0 +1,28 @@
+.realNemo {
+  background-color: #0f614e;
+  padding-bottom: 3rem;
+}
+
+.realNemoFlexParent {
+  display: flex;
+}
+
+.realNemo .readMore {
+  text-align: left;
+}
+
+.realNemoText {
+  flex-basis: 50%;
+  margin-right: 8rem;
+  text-align: right;
+}
+
+.realNemoFlexParent .readMore {
+  text-align: end;
+}
+
+.realNemoFlexParent img {
+  box-shadow: -30px 30px #86e0f9;
+  flex-basis: 80%;
+  margin: 0 -18.25vw -3rem 0;
+}

@@ -1,0 +1,20 @@
+.imageGallery {
+  background-color: #0f614e;
+  padding: 8rem 0 8rem 0;
+}
+
+.imageGallery .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.imageGallery a {
+  border: 3px solid #0f614e;
+  transition: border 0.3s;
+}
+
+.imageGallery a:hover,
+.imageGallery a:focus {
+  border: 3px solid #ffffff;
+}

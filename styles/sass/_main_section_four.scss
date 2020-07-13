@@ -1,0 +1,36 @@
+.links {
+  background-color: #0c1423;
+  padding: 4rem 0 8rem 0;
+}
+
+.links .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.community {
+  margin-top: -1rem;
+}
+
+.links h4 {
+  margin-left: 5rem;
+}
+
+.titleBar {
+  position: relative;
+}
+
+.titleBar i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #0c1423;
+  background-color: #86e0f9;
+  padding: 10px;
+  border-radius: 5em;
+}
+
+.getInTouch {
+  margin-top: -1rem;
+}
