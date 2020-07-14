@@ -5,20 +5,16 @@
   background-attachment: fixed;
   background-position: center center;
   min-height: calc(100vh - 200px);
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  // position: relative;
 }
 
-.headerMain ul li {
+header ul li {
   display: inline-block;
   text-align: end;
   margin-left: 2rem;
 }
 
-.headerMainFlexParent {
+.headerMainFlexParent,
+.blogHeaderFlexParent {
   display: flex;
   height: calc(100vh - 239px);
   align-items: center;
@@ -60,5 +56,18 @@ h1 {
 
 .headerMainFlexParent img {
   margin-right: -18.25vw;
-  margin-top: 60rem;
+  margin-top: 58rem;
+}
+
+.blogHeader {
+  background-image: url(../assets/blog-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  min-height: calc(100vh - 200px);
+}
+
+.blogHeader h1 {
+  text-align: center;
 }

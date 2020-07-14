@@ -1,0 +1,37 @@
+.comments {
+  background-color: #0c1423;
+  padding: 5rem 0 10rem 60rem;
+}
+
+.comments h2 {
+  text-align: left;
+  margin-bottom: 4rem;
+}
+
+.comments .comment1 {
+  display: flex;
+}
+
+.comment1 img {
+  flex-basis: 20%;
+  margin: 0 20px 40px 0;
+  flex-shrink: 0;
+}
+
+.comment1 .comment1Text {
+  flex-basis: 80%;
+}
+
+.comments .comment2 {
+  display: flex;
+}
+
+.comment2 img {
+  flex-basis: 20%;
+  margin: 0 20px 40px 0;
+  flex-shrink: 0;
+}
+
+.comment2 .comment2Text {
+  flex-basis: 80%;
+}

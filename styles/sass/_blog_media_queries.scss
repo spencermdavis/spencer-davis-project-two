@@ -1,0 +1,64 @@
+@media (max-width: 1660px) {
+  .blogHeader {
+    height: 100vh;
+  }
+
+  header nav .post {
+    margin: 0;
+    padding: 0 0 1rem 0;
+  }
+
+  .post {
+    padding: 0 0 1rem 0;
+  }
+
+  .postFlexParent {
+    margin: 0 0 7rem 0;
+  }
+
+  .post figure {
+    text-align: center;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .post img {
+    position: static;
+    width: 100%;
+    box-shadow: 0 0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .post h2 {
+    margin-top: 5rem;
+  }
+
+  .post aside {
+    display: none;
+  }
+
+  .comments {
+    padding: 5rem 0 5rem 0;
+  }
+  .postForm .wrapper form {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .blogHeader nav {
+    visibility: hidden;
+  }
+  .comments {
+    padding: 0 0 5rem 0;
+  }
+  .comments h2 {
+    text-align: center;
+  }
+  .comment1 img,
+  .comment2 img {
+    display: none;
+  }
+}

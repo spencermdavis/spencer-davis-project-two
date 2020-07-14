@@ -1,8 +1,5 @@
 @media (max-width: 768px) {
   // header styles
-  header h1 {
-    font-size: 8rem;
-  }
 
   header nav {
     visibility: hidden;
@@ -74,6 +71,10 @@
     padding-bottom: 8rem;
   }
 
+  .profile h2 {
+    text-align: center;
+  }
+
   .profileFlexParent {
     align-items: center;
     justify-content: center;
@@ -94,7 +95,13 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 590px) {
+  // header styles
+
+  header h1 {
+    font-size: 8rem;
+  }
+
   // section 4 styles
 
   .links .wrapper {

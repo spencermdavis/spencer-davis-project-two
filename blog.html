@@ -26,39 +26,42 @@
             <li><a href="">contact</a></li>
           </ul>
         </nav>
-        <h1>Blog</h1>
+        <div class="blogHeaderFlexParent">
+          <h1>Blog</h1>
+        </div>
       </div>
     </header>
     <main>
       <section class="post">
-        <figure>
-          <img
-            src="./assets/blog-post-image.jpg"
-            alt="A clownfish swims through red coral growing from the white-sand seabed."
-          />
-        </figure>
+        <img
+          src="./assets/blog-post-image.jpg"
+          alt="A clownfish swims through red coral growing from the white-sand seabed."
+        />
         <div class="wrapper">
-          <h2>discovering new species</h2>
-          <p class="date">Monday, May 4th, 2019 by Dieula</p>
-          <p class="postText">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magnam
-            ipsa veritatis, eum eius, hic vitae unde quaerat quas eligendi illum
-            iste suscipit aliquam inventore rerum asperiores voluptatum esse
-            atque sint doloremque qui aut! Maiores quas blanditiis numquam,
-            laboriosam velit a obcaecati ad accusamus ullam provident, voluptate
-            nisi sunt itaque. Vitae dolore a voluptatum quas nemo natus
-            exercitationem, repudiandae nam, eaque atque quisquam iure porro
-            distinctio, quia nostrum quam repellendus. Iure quasi minus
-            deserunt! Error veniam, vel, consequatur deserunt maxime
-            reprehenderit adipisci reiciendis repellat dolores incidunt corrupti
-            atque pariatur quibusdam quos tempore autem doloribus amet id quasi,
-            corporis placeat qui fugiat delectus. Magnam fugit eius eos nostrum
-            beatae dolores blanditiis unde, tempore ad minima adipisci inventore
-            error veniam non esse minus suscipit, perspiciatis reprehenderit ex
-            dolorem. Ab error praesentium nam voluptate exercitationem harum
-            vero qui hic quisquam in iste sit alias est nulla suscipit, ipsum,
-            delectus quidem maxime earum cum?
-          </p>
+          <div class="postFlexParent">
+            <h2>discovering new species</h2>
+            <p class="date">Monday, May 4th, 2019 by Dieula</p>
+            <p class="postText">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              magnam ipsa veritatis, eum eius, hic vitae unde quaerat quas
+              eligendi illum iste suscipit aliquam inventore rerum asperiores
+              voluptatum esse atque sint doloremque qui aut! Maiores quas
+              blanditiis numquam, laboriosam velit a obcaecati ad accusamus
+              ullam provident, voluptate nisi sunt itaque. Vitae dolore a
+              voluptatum quas nemo natus exercitationem, repudiandae nam, eaque
+              atque quisquam iure porro distinctio, quia nostrum quam
+              repellendus. Iure quasi minus deserunt! Error veniam, vel,
+              consequatur deserunt maxime reprehenderit adipisci reiciendis
+              repellat dolores incidunt corrupti atque pariatur quibusdam quos
+              tempore autem doloribus amet id quasi, corporis placeat qui fugiat
+              delectus. Magnam fugit eius eos nostrum beatae dolores blanditiis
+              unde, tempore ad minima adipisci inventore error veniam non esse
+              minus suscipit, perspiciatis reprehenderit ex dolorem. Ab error
+              praesentium nam voluptate exercitationem harum vero qui hic
+              quisquam in iste sit alias est nulla suscipit, ipsum, delectus
+              quidem maxime earum cum?
+            </p>
+          </div>
         </div>
         <aside class="aboutSidebar">
           <img
@@ -125,22 +128,24 @@
       <section class="postForm">
         <div class="wrapper">
           <form action="#">
-            <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Name"
-              autocomplete="off"
-            />
+            <div class="textEmail">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                autocomplete="off"
+              />
 
-            <label for="email">Email address</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Email address"
-            />
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email address"
+              />
+            </div>
+            <label for="name">Name</label>
 
             <label for="comment">Comment</label>
             <textarea
