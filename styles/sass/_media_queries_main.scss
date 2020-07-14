@@ -1,10 +1,4 @@
 @media (max-width: 768px) {
-  // header styles
-
-  header nav {
-    visibility: hidden;
-  }
-
   //   section 1 styles
   .underTheSea {
     padding: 15rem 0 15rem 0;
@@ -114,5 +108,12 @@
   .imageGallery .wrapper {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 376px) {
+  // header styles
+  nav {
+    font-size: 1.5rem;
   }
 }

@@ -48,9 +48,6 @@
 }
 
 @media (max-width: 1100px) {
-  .blogHeader nav {
-    visibility: hidden;
-  }
   .comments {
     padding: 0 0 5rem 0;
   }
@@ -60,5 +57,16 @@
   .comment1 img,
   .comment2 img {
     display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .textEmail {
+    flex-direction: column;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
   }
 }

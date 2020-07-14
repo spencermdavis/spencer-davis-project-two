@@ -9,7 +9,7 @@
   position: absolute;
   width: 60%;
   right: 0;
-  top: -125px;
+  top: -100px;
 }
 
 .postFlexParent {
@@ -31,6 +31,10 @@
   align-self: flex-start;
 }
 
+.postFlexParent h2 {
+  margin-top: 2rem;
+}
+
 .post aside {
   position: absolute;
   background-color: #0f614e;
@@ -43,9 +47,11 @@
 .post aside img {
   width: 125%;
   position: absolute;
-  top: -325px;
+  top: -300px;
+  right: 25px;
   margin: 0;
   padding: 0;
+  box-shadow: 0 0;
 }
 
 .sidebarRecentPosts h2 {

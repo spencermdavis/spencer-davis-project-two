@@ -36,8 +36,18 @@ ul li a {
   transition: color 0.3s;
 }
 
-ul li a:hover {
+nav ul li a {
+  transition: border 0.3s;
+}
+
+ul li a:hover,
+ul li a:focus {
   color: #86e0f9;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  border-bottom: 1px solid #86e0f9;
 }
 
 h1 {
@@ -68,6 +78,20 @@ h1 {
   min-height: calc(100vh - 200px);
 }
 
-.blogHeader h1 {
+.contactHeader {
+  background-image: url(../assets/contact-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  min-height: calc(100vh - 200px);
+}
+
+.blogHeader h1,
+.contactHeader h1 {
   text-align: center;
+}
+
+.contactHeader h1 {
+  padding-top: 25rem;
 }

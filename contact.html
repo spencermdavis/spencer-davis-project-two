@@ -20,63 +20,69 @@
       <div class="wrapper">
         <nav>
           <ul>
-            <li><a href="">home</a></li>
-            <li><a href="">about</a></li>
-            <li><a href="">blog</a></li>
-            <li><a href="">contact</a></li>
+            <li><a href="#index">home</a></li>
+            <li><a href="#mainContent">about</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">contact</a></li>
           </ul>
         </nav>
         <h1>get in touch</h1>
       </div>
     </header>
-    <main>
+    <main id="#mainContent">
       <section class="contactForm">
         <div class="wrapper">
           <form action="#">
+            <div class="textEmail">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                autocomplete="off"
+              />
+
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email address"
+              />
+            </div>
             <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Name"
-              autocomplete="off"
-            />
 
-            <label for="email">Email address</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Email address"
-            />
-
-            <label for="message">Message</label>
+            <label for="comment">Comment</label>
             <textarea
-              name="message"
-              id="message"
+              name="comment"
+              id="comment"
               cols="30"
               rows="10"
-              placeholder="Message"
+              placeholder="Comment"
               required
               maxlength="255"
               autocomplete="off"
             ></textarea>
 
-            <input type="submit" value="submit" />
+            <input type="submit" value="post comment" />
           </form>
           <aside class="contactSidebar">
-            <ul>
+            <ul class="iconList">
               <li>
-                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="facebook" href=""
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
               </li>
               <li>
-                <a href=""><i class="fab fa-instagram-f"></i></a>
+                <a class="instagram" href=""
+                  ><i class="fab fa-instagram"></i
+                ></a>
               </li>
               <li>
-                <a href=""><i class="fab fa-twitter-f"></i></a>
+                <a class="twitter" href=""><i class="fab fa-twitter"></i></a>
               </li>
               <li>
-                <a href=""><i class="fab fa-whatsapp-f"></i></a>
+                <a class="whatsapp" href=""><i class="fab fa-whatsapp"></i></a>
               </li>
             </ul>
             <h3><a href="mailto:info@email.com">info@email.com</a></h3>
