@@ -1,3 +1,5 @@
+$primary: #86e0f9;
+
 .newAdditions {
   background-color: #0f614e;
   padding-bottom: 3rem;
@@ -20,7 +22,7 @@
 }
 
 .newAdditions img {
-  box-shadow: 30px 30px #86e0f9;
+  box-shadow: 30px 30px $primary;
   flex-basis: 80%;
   margin: -3rem 0 0 -18.5vw;
 }

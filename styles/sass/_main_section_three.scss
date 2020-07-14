@@ -21,8 +21,10 @@
   text-align: end;
 }
 
+$primary: #86e0f9;
+
 .realNemoFlexParent img {
-  box-shadow: -30px 30px #86e0f9;
+  box-shadow: -30px 30px $primary;
   flex-basis: 80%;
   margin: 0 -18.25vw -3rem 0;
 }

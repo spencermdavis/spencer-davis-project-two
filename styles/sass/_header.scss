@@ -1,3 +1,5 @@
+$primary: #86e0f9;
+
 .headerMain {
   background-image: url(../assets/header-image.jpg);
   background-size: cover;
@@ -42,7 +44,7 @@ nav ul li a {
 
 ul li a:hover,
 ul li a:focus {
-  color: #86e0f9;
+  color: $primary;
 }
 
 nav ul li a:hover,
@@ -67,6 +69,7 @@ h1 {
 .headerMainFlexParent img {
   margin-right: -18.25vw;
   margin-top: 58rem;
+  // thanks to Megan Rantz for help styling wrapper breakout images
 }
 
 .blogHeader {

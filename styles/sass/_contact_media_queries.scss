@@ -1,3 +1,5 @@
+$primary: #86e0f9;
+
 @media (max-width: 1260px) {
   .contactForm form,
   .contactSidebar {
@@ -12,7 +14,7 @@
 
   .contactSidebar {
     background-color: #0f614e;
-    box-shadow: 30px 30px #86e0f9;
+    box-shadow: 30px 30px $primary;
     margin: 6rem 0 3rem 0;
     padding: 4rem 0 4rem 0;
   }

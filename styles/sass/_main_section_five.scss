@@ -1,3 +1,5 @@
+$primary: #86e0f9;
+
 .profile {
   background-color: #0c1423;
   padding-bottom: 20rem;
@@ -25,7 +27,7 @@
 .profileFlexParent img {
   flex-basis: 20%;
   margin-right: 10rem;
-  box-shadow: 50px 50px #86e0f9;
+  box-shadow: 50px 50px $primary;
   height: auto;
 }
 

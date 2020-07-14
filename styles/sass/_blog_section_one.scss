@@ -1,3 +1,5 @@
+$primary: #86e0f9;
+
 .post {
   background-color: #0c1423;
   position: relative;
@@ -5,7 +7,7 @@
 }
 
 .post img {
-  box-shadow: -30px 30px #86e0f9;
+  box-shadow: -30px 30px $primary;
   position: absolute;
   width: 60%;
   right: 0;
@@ -21,8 +23,8 @@
   margin-left: 38rem;
   margin-top: 20rem;
   padding: 0 0 3rem 5rem;
-  border-left: 5px solid #86e0f9;
-  border-bottom: 5px solid #86e0f9;
+  border-left: 5px solid $primary;
+  border-bottom: 5px solid $primary;
 }
 
 .postFlexParent h2,

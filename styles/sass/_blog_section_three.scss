@@ -1,3 +1,5 @@
+$primary: #86e0f9;
+
 .postForm {
   background-color: #0c1423;
   padding-bottom: 5rem;
@@ -29,11 +31,11 @@ input[type="email"],
 input[type="text"],
 input[type="email"] {
   width: 40%;
-  border-bottom: 1px solid #86e0f9;
+  border-bottom: 1px solid $primary;
 }
 
 #comment {
-  border: 1px solid #86e0f9;
+  border: 1px solid $primary;
   margin-bottom: 2rem;
   resize: none;
   padding: 0.5rem;
@@ -55,5 +57,5 @@ input[type="submit"] {
 
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-  color: #86e0f9;
+  color: $primary;
 }
