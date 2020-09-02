@@ -1,7 +1,15 @@
+@media (max-width: 855px) {
+  // header styles
+
+  header h1 {
+    font-size: 8rem;
+  }
+}
+
 @media (max-width: 768px) {
   //   section 1 styles
   .underTheSea {
-    padding: 15rem 0 15rem 0;
+    padding: 30rem 0;
   }
 
   .underTheSea p {
@@ -90,12 +98,6 @@
 }
 
 @media (max-width: 590px) {
-  // header styles
-
-  header h1 {
-    font-size: 8rem;
-  }
-
   // section 4 styles
 
   .links .wrapper {
@@ -114,6 +116,6 @@
 @media (max-width: 376px) {
   // header styles
   nav {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 }

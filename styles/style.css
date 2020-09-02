@@ -500,6 +500,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-height: 800px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -521,7 +522,7 @@ h1 {
 
 .newAdditions {
   background-color: #0f614e;
-  padding-bottom: 3rem;
+  padding-bottom: 7rem;
 }
 
 .newAdditionsFlexParent {
@@ -980,9 +981,15 @@ h3 a:focus {
   color: #86e0f9;
 }
 
+@media (max-width: 855px) {
+  header h1 {
+    font-size: 8rem;
+  }
+}
+
 @media (max-width: 768px) {
   .underTheSea {
-    padding: 15rem 0 15rem 0;
+    padding: 30rem 0;
   }
   .underTheSea p {
     text-align: center;
@@ -1060,9 +1067,6 @@ h3 a:focus {
 }
 
 @media (max-width: 590px) {
-  header h1 {
-    font-size: 8rem;
-  }
   .links .wrapper {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1079,7 +1083,7 @@ h3 a:focus {
 
 @media (max-width: 376px) {
   nav {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 }
 
